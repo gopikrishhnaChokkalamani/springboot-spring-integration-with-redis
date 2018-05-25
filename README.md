@@ -7,7 +7,7 @@ Download and import all the three projects.
 
 Perform a Maven install on Messaging-library project (*important)
 
-Install redis in your machine and start redis (redis-server)
+Install redis (see https://redis.io/ for download and installation steps) in your machine and start redis (redis-server)
 
 Start both producer and consumer as regular springboot applications
 
