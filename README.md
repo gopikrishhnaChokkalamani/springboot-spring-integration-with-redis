@@ -9,6 +9,8 @@ Perform a Maven install on Messaging-library project (*important)
 
 Install redis (see https://redis.io/ for download and installation steps) in your machine and start redis (redis-server)
 
+Redis provides you a key-value in memory data structure, which can be used a queue, database, or cache. In this example we are going to use redis as a queue for its faster message processing abilities
+
 Start both producer and consumer as regular springboot applications
 
 send a post request from PostMan
