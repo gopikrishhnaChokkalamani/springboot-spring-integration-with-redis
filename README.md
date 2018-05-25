@@ -11,9 +11,12 @@ Install redis in your machine and start redis (redis-server)
 
 Start both producer and consumer as regular springboot applications
 
-send a post request from PostMan of the producer,
+send a post request from PostMan
 
 http://localhost:8080/producer/sendPost
+
+use the below json request
+
 {
 	"id": "12345",
 	"firstName": "Sam",
