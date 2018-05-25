@@ -1,0 +1,6 @@
+message:
+  library:
+    application: producer
+    channel:
+      redis:
+        queue: CONSUMER_QUEUE_1

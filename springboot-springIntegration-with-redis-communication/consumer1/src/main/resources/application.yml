@@ -1,0 +1,8 @@
+message:
+  library:
+    application: consumer
+    channel:
+      redis:
+        queue: CONSUMER_QUEUE_1
+server:
+  port: 8081
